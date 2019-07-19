@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import clamp from 'lodash-es/clamp';
 import { useSprings, animated } from 'react-spring';
 import { useGesture } from 'react-use-gesture';
-import './Carousel.css';
+import './App.css';
 
 const pages = [
   'https://res.cloudinary.com/pieol2/image/upload/v1555170135/shop-template/resizeimage6.jpg',

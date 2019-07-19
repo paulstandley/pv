@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import styled from 'styled-components';
 
-export default class Home extends Component {
+export class Home extends Component {
 
   state = {
     showingInfoWindow: false,
@@ -97,4 +97,4 @@ const Main = styled.main`
 
 export default GoogleApiWrapper({
   apiKey: ("AIzaSyDm6UWaF3iBL3mVqjFBHe2Tpvm8z2L5EEM")
-})(Homw)
+})(Home)
